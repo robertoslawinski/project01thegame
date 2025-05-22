@@ -10,7 +10,7 @@ class Player {
     this.bullets = [];
 
     this.element = document.createElement("img");
-    this.element.src = "../images/warrior.png";
+    this.element.src = "/images/warrior.png";
     this.element.style.width = `${this.width}px`;
     this.element.style.height = `${this.height}px`;
     this.element.style.position = "absolute";

@@ -7,7 +7,7 @@ class Bullet {
     this.height = 50;
 
     this.element = document.createElement("img");
-    this.element.src = "../images/bolt.png"; 
+    this.element.src = "/images/bolt.png"; 
     this.element.style.width = `${this.width}px`;
     this.element.style.height = `${this.height}px`;
     this.element.style.position = "absolute";
