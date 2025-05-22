@@ -17,6 +17,9 @@ class Game {
     this.gameIntervalId = null;
     this.gameLoopFrequency = 1000 / 60;
     this.counter = 0;
+
+    this.Laser = new Audio("../assets/laser.wav");
+    this.Laser.volume = 0.2;
   }
 
   start() {
@@ -51,7 +54,7 @@ class Game {
       this.obstacles.push(new Obstacle(this.gameScreen, 125, 165));
     }
 
-    // Atualizar balas
+    
     for (let i = 0; i < this.player.bullets.length; i++) {
       const bullet = this.player.bullets[i];
       bullet.move();
@@ -115,5 +118,9 @@ class Game {
     this.gameContainer.style.display = "none";
     this.gameEndScreen.style.display = "block";
     this.startScreen.style.display = "none";
+  }
+
+  playLaser(){
+    this.Laser.play();  
   }
 }

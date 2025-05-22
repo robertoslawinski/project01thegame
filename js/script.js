@@ -37,7 +37,10 @@ window.onload = () => {
         const bulletY = ourGame.player.top;
         const bullet = new Bullet(ourGame.gameScreen, bulletX, bulletY);
         ourGame.player.bullets.push(bullet);
+        ourGame.playLaser(); 
         break;
+       
+
     }
   });
 
