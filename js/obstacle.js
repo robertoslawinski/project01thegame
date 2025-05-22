@@ -8,7 +8,7 @@ class Obstacle {
     const possibleXValues = [75, 280];
     this.left = possibleXValues[Math.floor(Math.random() * possibleXValues.length)];
 
-    const obstacleImages = ["/images/sufer.png", "/images/thanos.png","/images/locki.png", "/images/rock.png", "/images/nave.png"];
+    const obstacleImages = ["./images/sufer.png", "./images/thanos.png","./images/locki.png", "./images/rock.png", "./images/nave.png"];
     const randomIndex = Math.floor(Math.random() * obstacleImages.length);
     this.imageSrc = obstacleImages[randomIndex];
 
