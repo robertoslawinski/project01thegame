@@ -18,7 +18,7 @@ class Game {
     this.gameLoopFrequency = 1000 / 60;
     this.counter = 0;
 
-    this.Laser = new Audio("/assets/laser.wav");
+    this.Laser = new Audio("./assets/laser.wav");
     this.Laser.volume = 0.2;
   }
 
