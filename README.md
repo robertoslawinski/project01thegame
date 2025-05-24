@@ -12,7 +12,7 @@ Stellar Titans is a pixel-art inspired arcade game where players control a warri
 
 This project was developed as part of the Ironhack Web Development Bootcamp to practice:
 - DOM manipulation
-- OOP in JavaScript
+- JavaScript
 - CSS animations
 - Event handling and game logic
 
@@ -23,7 +23,6 @@ This project was developed as part of the Ironhack Web Development Bootcamp to p
 - Game start and end screens
 - Score tracking
 - Sound and visual effects
-- Responsive pixel-style UI
 
 ## 🎮 How to Play
 
@@ -34,8 +33,7 @@ This project was developed as part of the Ironhack Web Development Bootcamp to p
 ## 🛠️ Tech Stack
 
 - HTML5
-- CSS3 (flexbox, animations)
-- JavaScript (OOP, DOM manipulation)
+- JavaScript (DOM manipulation)
 - Assets: custom sprites, retro fonts, and background images
 
 ## 📁 Installation & Setup
@@ -45,4 +43,5 @@ To run the game locally:
 ```bash
 git clone https://github.com/robertoslawinki/stellar-titans.git
 cd stellar-titans
-open index.html
+open index.html or
+https://robertoslawinski.github.io/project01thegame/
